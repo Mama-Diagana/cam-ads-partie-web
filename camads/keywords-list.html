@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Liste des mots cles</title>
+    <!--CSS -->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--1er Menu de navigation-->
+    <nav class="navbar navbar-default" id="menu1">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="color: black ;">Cam Ads</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-info-sign"  style="color: black ;"></span> &nbsp;A propos</a>
+                </li>
+                <li>
+                    <a href="#"><span class="glyphicon glyphicon-user"  style="color: black ;"></span> &nbsp;Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--2e Menu de navigation-->
+    <nav class="navbar navbar-default" id="menu2">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">
+                        <span class="glyphicon glyphicon-home"></span> &nbsp;Acceuil</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Main Card-->
+    <div id="f">
+        <div class="main-card">
+            <br>
+            <form>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="keyword" placeholder="Tapez ici le mot clé">
+                        </div>
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-primary" id="a">Inserer un mot clé</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <h3>Liste des mots clés</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Mots-clés</th>
+                        <th scope="col">CPC Optimal</th>
+                        <th scope="col">Nombre d'impression</th>
+                        <th scope="col">Position moyenne</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><a href="keyword-detail.html" id="e">fast food</a></th>
+                        <td>180</td>
+                        <td>1680</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <p class="text-center">Cliquez sur un mot clé pour plus de détails</p>
+        </div>
+        <br>
+
+
+        <!--Scripts-->
+        <script src="jquery/jquery-3.4.1.slim.min.js"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    </div>
+</body>
+
+</html>

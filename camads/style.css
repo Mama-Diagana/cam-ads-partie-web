@@ -1,0 +1,103 @@
+                            #menu1,
+                            #menu2 {
+                                border-radius: 0;
+                                margin-right: -5px;
+                                margin-left: -5px;
+                            }
+                            
+                            #menu1 {
+                                background-color: #EC9717;
+                                margin-top: -1px;
+                            }
+                            
+                            #menu2 {
+                                background-color: #fff;
+                                margin-top: -25px;
+                            }
+                            
+                            .main-card {
+                                border: 0.5px solid #0c0707;
+                                width: 50%;
+                                margin: 0 auto;
+                                padding-left: 15px;
+                                padding-right: 5px;
+                                padding-bottom: 5%;
+                            }
+                            
+                            .h-card {
+                                width: 60%;
+                                margin: 0 auto;
+                                padding-left: 50px;
+                                padding-right: 50px;
+                                padding-bottom: 5%;
+                                padding-bottom: 5%;
+                                padding: 7%;
+                            }
+                            
+                            #go {
+                                border-radius: 10px;
+                                background-color: rgb(233, 183, 109);
+                            }
+                            
+                            .go-div {
+                                width: 50%;
+                                margin: 0 auto;
+                                text-align: right;
+                                background-color: transparent;
+                            }
+                            
+                            #pic {
+                                background-image: url('C:/Users/mad/Downloads/Edacy/Soft skills/Projet du groupe avec Gérard/graph.png');
+                                padding: 0%;
+                                margin: 0 auto;
+                            }
+                            
+                            #p {
+                                text-indent: 9em;
+                                color: #F2994A;
+                            }
+                            
+                            #b {
+                                text-indent: 20em;
+                                color: grey;
+                            }
+                            
+                            #a {
+                                background-color: rgb(233, 183, 109);
+                                color: black;
+                                border: 1;
+                            }
+                            
+                            #C {
+                                background-image: url('C:/Users/mad/Downloads/Edacy/Soft skills/Projet du groupe avec Gérard/analytics.png');
+                                border: 0.5px solid #0c0707;
+                                box-shadow: #0c0707;
+                                padding: 1%;
+                                margin: 0 auto;
+                            }
+                            
+                            #e {
+                                color: rgb(233, 183, 109);
+                                border: 1;
+                            }
+                            
+                            #f {
+                                background-image: url('C:/Users/mad/Downloads/Edacy/Soft skills/Projet du groupe avec Gérard/seo.png');
+                                border: 0px solid #0c0707;
+                                box-shadow: #0c0707;
+                                padding: 1%;
+                                margin: 0 auto;
+                            }
+                            
+                            #k {
+                                width: 1000;
+                                height: 1000;
+                            }
+                            
+                            #t {
+                                background-image: url('C:/Users/mad/Downloads/Edacy/Soft skills/Projet du groupe avec Gérard/analysis.png');
+                                border: 0px solid #0c0707;
+                                box-shadow: #0c0707;
+                                padding: 1%;
+                                margin: 0 auto;
+                            }
